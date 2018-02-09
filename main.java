@@ -66,8 +66,7 @@ public class main {
                         .addTextBody("sign", "D24C62D7B8AE0D470191BE0F161B8A36", ContentType.DEFAULT_TEXT)
                         .build();
 
-        //连接
-
+        //构造请求
         HttpUriRequest request = RequestBuilder
                                 .post("https://api.mch.weixin.qq.com/secapi/mch/uploadmedia")
                                 .setEntity(data)
