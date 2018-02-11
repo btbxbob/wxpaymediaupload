@@ -1,1 +1,0 @@
-javac main.java -cp httpclient_4.5.5.jar;httpcore_4.4.9.jar;commons-logging-1.2.jar -Xlint:unchecked -encoding utf8
